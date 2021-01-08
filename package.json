@@ -7,9 +7,16 @@
   "author": "Dustin L. Dodson",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "git",
+    "hook",
+    "pre-commit",
+    "lint",
+    "eslint"
+  ],
   "scripts": {
     "lint": "eslint --fix .",
-    "_postinstall": "husky install",
+    "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable"
   },
