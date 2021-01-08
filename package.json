@@ -1,6 +1,6 @@
 {
   "name": "@fizzygalacticus/pre-commit-lint",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "ESLint and re-add on commit",
   "main": "index.js",
   "repository": "https://github.com/FizzyGalacticus/pre-commit-lint",
