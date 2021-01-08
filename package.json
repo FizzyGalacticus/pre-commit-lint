@@ -6,9 +6,10 @@
   "repository": "https://github.com/FizzyGalacticus/pre-commit-lint",
   "author": "Dustin L. Dodson",
   "license": "MIT",
+  "private": false,
   "scripts": {
     "lint": "eslint --fix .",
-    "postinstall": "husky install",
+    "_postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable"
   },
